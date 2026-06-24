@@ -1,97 +1,141 @@
-# Muhammad Junaid Farooq - Portfolio
+# Muhammad Junaid Farooq | Software Engineer Portfolio
 
-[![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square\&logo=next.js)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat-square\&logo=typescript)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-38B2AC?style=flat-square\&logo=tailwind-css)](https://tailwindcss.com/)
-[![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000?style=flat-square\&logo=vercel)](https://vercel.com/)
+![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=for-the-badge\&logo=next.js)
+![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge\&logo=react\&logoColor=000)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=for-the-badge\&logo=tailwindcss\&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-Animation-0055FF?style=for-the-badge\&logo=framer)
+![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000?style=for-the-badge\&logo=vercel)
 
-> Professional portfolio website showcasing my software engineering projects, technical skills, and development experience. Built with modern web technologies and optimized for performance, responsiveness, and accessibility.
+A modern, responsive, and performance-focused developer portfolio built to showcase my software engineering journey, technical expertise, projects, and professional experience.
 
-## 🚀 Live Demo
-
-🌐 Portfolio: https://muhammadjunaid-swe.vercel.app
-
----
-
-## 👨‍💻 About Me
-
-I'm **Muhammad Junaid Farooq**, a Software Engineering graduate passionate about building scalable web applications and solving real-world problems through technology.
-
-### Areas of Expertise
-
-* 💻 Full Stack Web Development
-* ⚛️ React & Next.js Applications
-* 🟢 Node.js & Express.js APIs
-* 🍃 MongoDB Database Design
-* 🔐 Authentication & Authorization
-* 🧩 RESTful API Development
-* 📱 Responsive UI Development
-* 🚀 Performance Optimization
+The portfolio serves as a central hub where recruiters, hiring managers, and fellow developers can explore my work, technical skills, resume, and featured projects.
 
 ---
 
-## 🛠️ Tech Stack
+## 🌐 Live Website
 
-### Frontend
+### Portfolio
 
-* Next.js
-* React.js
-* TypeScript
-* JavaScript (ES6+)
-* Tailwind CSS
-* Framer Motion
-* React Icons
-
-### Backend
-
-* Node.js
-* Express.js
-* MongoDB
-* Mongoose
-
-### Tools & Platforms
-
-* Git & GitHub
-* Postman
-* Vercel
-* Cloudinary
-* Mapbox
-* VS Code
+https://muhammadjunaid-swe.vercel.app/
 
 ---
 
-## 🎯 Portfolio Features
+## 📸 Screenshots
 
-### ✨ Modern User Experience
+### Hero Section
 
-* Responsive Design
-* Smooth Animations
-* Interactive UI Components
-* Mobile-First Approach
+![Hero Section](assets/hero-section.png)
 
-### 📄 Resume Showcase
+### About Section
 
-* Embedded Resume Viewer
-* Resume Download Functionality
-* Professional Profile Presentation
+![About Section](assets/about-section.png)
 
-### 📂 Project Showcase
+### Projects Showcase
 
-* Detailed Project Descriptions
-* Technology Stack Highlights
-* Live Demo & Source Code Links
+![Projects Section](assets/projects-section.png)
 
-### 📞 Contact System
+### Experience Section
 
-* Contact Form Integration
-* Direct Communication Support
+![Experience Section](assets/experience-section.png)
 
-### ⚡ Performance Optimized
+### Resume Viewer
 
-* Server-Side Rendering
-* Image Optimization
-* Fast Loading Experience
-* SEO Best Practices
+![Resume Viewer](assets/resume-viewer.png)
+
+### Contact Section
+
+![Contact Section](assets/contact-section.png)
+
+---
+
+## 📊 Project Highlights
+
+* Built using Next.js 16 App Router
+* Fully responsive across desktop, tablet, and mobile devices
+* Type-safe development with TypeScript
+* Smooth UI animations using Framer Motion
+* Resume viewing and downloading functionality
+* SEO-friendly architecture
+* Optimized image delivery and performance
+* Modular and reusable component architecture
+* Production deployment on Vercel
+* Modern UI/UX design principles
+
+---
+
+## 🚀 Portfolio Features
+
+### Professional Branding
+
+* Personal introduction
+* Professional summary
+* Technical skills showcase
+* Resume integration
+* Social media links
+
+### Project Showcase
+
+* Featured projects section
+* Technology stack highlights
+* GitHub repository links
+* Live demo links
+* Detailed project descriptions
+
+### Interactive User Experience
+
+* Smooth page transitions
+* Scroll-based animations
+* Responsive layouts
+* Interactive UI components
+
+### Resume System
+
+* Embedded PDF viewer
+* Resume download support
+* Recruiter-friendly presentation
+
+### Contact Experience
+
+* Contact page
+* Professional networking links
+* Easy communication pathways
+
+---
+
+## 🏗️ Architecture Overview
+
+```text
+Visitor
+   │
+   ▼
+
+Next.js App Router
+
+   │
+
+   ├── Home
+   ├── About
+   ├── Projects
+   ├── Experience
+   ├── Resume
+   └── Contact
+
+   │
+   ▼
+
+Reusable Components
+
+   │
+   ▼
+
+Tailwind CSS + Framer Motion
+
+   │
+   ▼
+
+Optimized Deployment (Vercel)
+```
 
 ---
 
@@ -105,49 +149,48 @@ src/
 │   ├── projects/
 │   ├── api/
 │   └── components/
+│
 ├── public/
 │   ├── resume.pdf
-│   └── static/
+│   ├── images/
+│   └── assets/
+│
+├── data/
 ├── lib/
-└── styles/
+├── styles/
+└── utils/
 ```
 
 ---
 
-## 🚀 Getting Started
+## ⚙️ Getting Started
 
 ### Prerequisites
 
 * Node.js 18+
 * npm
 
-### Installation
-
-#### Clone the repository
+### Clone Repository
 
 ```bash
-git clone https://github.com/muhammadjunaidfarooq/my-portfolio-website.git
+git clone https://github.com/muhammadjunaidfarooq/muhammad-junaid-portfolio.git
+
+cd muhammad-junaid-portfolio
 ```
 
-#### Navigate to project directory
-
-```bash
-cd my-portfolio-website
-```
-
-#### Install dependencies
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
-#### Start development server
+### Start Development Server
 
 ```bash
 npm run dev
 ```
 
-#### Open browser
+Visit:
 
 ```text
 http://localhost:3000
@@ -155,7 +198,7 @@ http://localhost:3000
 
 ---
 
-## 🏗️ Production Build
+## 🚀 Production Build
 
 ```bash
 npm run build
@@ -164,14 +207,32 @@ npm start
 
 ---
 
-## 🤝 Connect With Me
+## 📈 Future Improvements
+
+* Blog Integration
+* Project Filtering
+* Analytics Dashboard
+* Case Study Pages
+* CMS Integration
+* Internationalization (i18n)
+
+---
+
+## 📬 Connect With Me
 
 ### Muhammad Junaid Farooq
 
-* 🌐 Portfolio: https://muhammadjunaid-swe.vercel.app
-* 💼 LinkedIn: https://www.linkedin.com/in/muhammadjunaidfarooq
-* 🐙 GitHub: https://github.com/muhammadjunaidfarooq
-* 📧 Email: [junaidfarooq202@gmail.com](mailto:junaidfarooq202@gmail.com)
+🌐 Portfolio
+https://muhammadjunaid-swe.vercel.app/
+
+💼 LinkedIn
+https://www.linkedin.com/in/muhammadjunaidfarooq/
+
+🐙 GitHub
+https://github.com/muhammadjunaidfarooq
+
+📧 Email
+[junaidfarooq.pk@gmail.com](mailto:junaidfarooq.pk@gmail.com)
 
 ---
 
@@ -181,10 +242,8 @@ This project is licensed under the MIT License.
 
 ---
 
-## ⭐ Support
+## 🤝 Feedback
 
-If you found this project helpful, consider starring the repository.
+Feedback, suggestions, and collaboration opportunities are always welcome.
 
-```bash
-⭐ Star this repository
-```
+If you would like to discuss software engineering, web development, or potential opportunities, feel free to connect with me through LinkedIn or email.
