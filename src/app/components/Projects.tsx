@@ -41,6 +41,8 @@ const Projects = () => {
                   src={project.image}
                   alt={project.title}
                   fill
+                  priority
+                  loading="eager"
                   className="object-cover"
                   sizes="(max-width: 768px) 100vh, (max-width: 1200px 50vw, 33vw"
                 />

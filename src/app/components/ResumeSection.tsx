@@ -71,8 +71,8 @@ const ResumeSection = () => {
 
     <div className="max-w-5xl mx-auto rounded-2xl overflow-hidden border border-gray-200 dark:border-gray-700 shadow-xl">
       <iframe
-        src="/resume.pdf"
-        className="w-full h-[900px]"
+        src="/MuhammadJunaidFarooqResume.pdf"
+        className="w-full h-225"
         title="Resume Preview"
       />
     </div>
