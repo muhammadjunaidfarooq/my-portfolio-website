@@ -9,7 +9,7 @@ import { fadeInUp, staggerContainer, cardHoverSmall } from "@/utils/animations";
 
 const Projects = () => {
   return (
-    <section className="py-20">
+    <section className="py-10">
       <div className="container max-w-7xl mx-auto px-4">
         <motion.h2
           {...fadeInUp}

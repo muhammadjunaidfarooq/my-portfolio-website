@@ -71,7 +71,7 @@ const ResumeSection = () => {
 
     <div className="max-w-5xl mx-auto rounded-2xl overflow-hidden border border-gray-200 dark:border-gray-700 shadow-xl">
       <iframe
-        src="/MuhammadJunaidFarooqResume.pdf"
+        src="/Muhammad_Junaid_Farooq_Resume.pdf"
         className="w-full h-225"
         title="Resume Preview"
       />
@@ -79,7 +79,7 @@ const ResumeSection = () => {
 
     <div className="flex justify-center mt-8">
       <a
-        href="/MuhammadJunaidFarooqResume.pdf"
+        href="/Muhammad_Junaid_Farooq_Resume.pdf"
         download
         className="inline-flex items-center gap-2 bg-primary text-white px-8 py-3 rounded-lg hover:bg-primary/90 transition-all"
       >

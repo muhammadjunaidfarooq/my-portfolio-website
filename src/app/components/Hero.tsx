@@ -9,7 +9,7 @@ import { fadeInUp, scaleIn } from "@/utils/animations";
 const Hero = () => {
   return (
     <>
-      <section className="py-20">
+      <section className="py-10">
         <div className="container max-w-7xl mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <motion.div
@@ -98,11 +98,26 @@ const Hero = () => {
               >
                 <Link
                   href="/contact"
-                  className="bg-gray-500 inline-block w-full md:w-auto text-white hover:text-gray-800 px-8 py-3 rounded-lg hover:bg-gray-300 transition-colors"
+                  className="bg-primary inline-block w-full md:w-auto text-white px-8 py-3 rounded-lg hover:bg-primary/80 transition-colors"
                 >
-                  Contect Me
+                  Contact Me
                 </Link>
               </motion.div>
+            </motion.div>
+
+            <motion.div
+              {...fadeInUp}
+              transition={{ delay: 0.7 }}
+              className="mt-4 flex justify-center"
+            >
+              <a
+                href="/Muhammad_Junaid_Farooq_Resume.pdf"
+                download
+                className="inline-flex items-center justify-center gap-2 bg-gray-500 text-white hover:text-gray-800 px-8 py-3 rounded-lg hover:bg-gray-300 transition-colors"
+              >
+                <FaDownload />
+                Download Resume
+              </a>
             </motion.div>
           </div>
         </div>
